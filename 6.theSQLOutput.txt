@@ -1,0 +1,66 @@
+id	firstName	lastName	email	cultureId	deleted	country	isRevokeAccess	created
+1	Victor	Shevchenko	vs@gmail.com	1033	1	US	0	2011-04-05
+2	Oleksandr	Petrenko	op@gmail.com	1034	0	UA	0	2014-05-01
+3	Victor	Tarasenko	vt@gmail.com	1033	1	US	1	2015-07-03
+4	Sergly	Ivanenko	sergly@gmail.com	1046	0	UA	1	2010-02-02
+5	Vitalii	Danilchenko	shumko@gmail.com	1031	0	QA	1	2009-01-01
+6	Joe	Dou	joe@gmail.com	1032	0	US	1	2009-01-01
+7	Marko	Polo	marko@gmail.com	1033	1	UA	1	2015-07-03
+
+id	name	created
+10	Support	2010-02-02
+12	Dev team	2010-02-03
+13	Apps team	2011-05-06
+14	TEST-dev team	2013-05-06
+15	Guest	2014-02-02
+16	TEST-QA-team	2014-02-02
+17	TEST-team	2011-01-07
+
+id	userID	groupID	created
+110	2	10	2010-02-02
+112	3	15	2010-02-03
+114	1	10	2014-02-02
+115	1	17	2011-05-02
+117	4	12	2014-07-13
+120	5	15	2014-06-15
+
+name
+TEST-dev team
+TEST-QA-team
+TEST-team
+
+firstName	lastName
+Victor	Shevchenko
+Victor	Shevchenko
+Victor	Shevchenko
+Victor	Shevchenko
+Victor	Tarasenko
+Victor	Tarasenko
+Victor	Tarasenko
+Victor	Tarasenko
+
+id	firstName	lastName	id	name
+1	Victor	Shevchenko	13	Apps team
+1	Victor	Shevchenko	14	TEST-dev team
+1	Victor	Shevchenko	15	Guest
+1	Victor	Shevchenko	16	TEST-QA-team
+4	Sergly	Ivanenko	12	Dev team
+4	Sergly	Ivanenko	13	Apps team
+4	Sergly	Ivanenko	14	TEST-dev team
+4	Sergly	Ivanenko	15	Guest
+4	Sergly	Ivanenko	16	TEST-QA-team
+4	Sergly	Ivanenko	17	TEST-team
+5	Vitalii	Danilchenko	10	Support
+5	Vitalii	Danilchenko	12	Dev team
+5	Vitalii	Danilchenko	13	Apps team
+5	Vitalii	Danilchenko	14	TEST-dev team
+5	Vitalii	Danilchenko	15	Guest
+5	Vitalii	Danilchenko	16	TEST-QA-team
+5	Vitalii	Danilchenko	17	TEST-team
+6	Joe	Dou	10	Support
+6	Joe	Dou	12	Dev team
+6	Joe	Dou	13	Apps team
+6	Joe	Dou	14	TEST-dev team
+6	Joe	Dou	15	Guest
+6	Joe	Dou	16	TEST-QA-team
+6	Joe	Dou	17	TEST-team
